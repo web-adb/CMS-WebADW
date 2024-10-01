@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_gambar_berandas",
+  "info": {
+    "singularName": "banner-gambar-beranda",
+    "pluralName": "banner-gambar-berandas",
+    "displayName": "banner_beranda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Judul": {
+      "type": "string"
+    },
+    "Deskripsi": {
+      "type": "text"
+    },
+    "Gambar": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

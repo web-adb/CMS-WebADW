@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agenda_sekolahs",
+  "info": {
+    "singularName": "agenda-sekolah",
+    "pluralName": "agenda-sekolahs",
+    "displayName": "Agenda-Sekolah",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nama": {
+      "type": "string"
+    },
+    "Tanggal": {
+      "type": "date"
+    },
+    "Details": {
+      "type": "text"
+    },
+    "AgendaURL": {
+      "type": "uid",
+      "targetField": "Nama"
+    }
+  }
+}

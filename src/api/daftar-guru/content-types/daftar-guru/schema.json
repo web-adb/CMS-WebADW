@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daftar_gurus",
+  "info": {
+    "singularName": "daftar-guru",
+    "pluralName": "daftar-gurus",
+    "displayName": "Daftar_Guru"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nama_Guru": {
+      "type": "string"
+    },
+    "Nama_Mapel": {
+      "type": "text"
+    },
+    "Gambar_Guru": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

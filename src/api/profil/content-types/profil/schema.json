@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profils",
+  "info": {
+    "singularName": "profil",
+    "pluralName": "profils",
+    "displayName": "Profil",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "logoUrl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "accreditation": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    }
+  }
+}

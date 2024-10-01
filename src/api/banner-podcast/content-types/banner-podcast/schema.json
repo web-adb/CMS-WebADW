@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "banner_podcasts",
+  "info": {
+    "singularName": "banner-podcast",
+    "pluralName": "banner-podcasts",
+    "displayName": "Banner-Podcast",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Gambar_Banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Judul": {
+      "type": "string"
+    },
+    "Deskripsi_Text": {
+      "type": "text"
+    }
+  }
+}

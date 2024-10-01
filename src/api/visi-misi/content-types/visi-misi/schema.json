@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visi_misis",
+  "info": {
+    "singularName": "visi-misi",
+    "pluralName": "visi-misis",
+    "displayName": "Visi-Misi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Visi": {
+      "type": "string"
+    },
+    "Misi": {
+      "type": "text"
+    },
+    "Boolean": {
+      "type": "boolean"
+    },
+    "JSON": {
+      "type": "json"
+    },
+    "RICHTEXT": {
+      "type": "blocks"
+    },
+    "PASSWORD": {
+      "type": "password"
+    }
+  }
+}

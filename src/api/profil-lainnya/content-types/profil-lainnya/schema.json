@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profil_lainnyas",
+  "info": {
+    "singularName": "profil-lainnya",
+    "pluralName": "profil-lainnyas",
+    "displayName": "ProfilLainnya"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

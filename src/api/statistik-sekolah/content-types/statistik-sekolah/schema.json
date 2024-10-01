@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "statistik_sekolahs",
+  "info": {
+    "singularName": "statistik-sekolah",
+    "pluralName": "statistik-sekolahs",
+    "displayName": "Statistik-Sekolah",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nama_Kepala_Sekolah": {
+      "type": "string"
+    },
+    "Deskripsi_Text": {
+      "type": "text"
+    },
+    "Guru_Staff": {
+      "type": "string"
+    },
+    "Siswa": {
+      "type": "string"
+    },
+    "Rombel": {
+      "type": "string"
+    },
+    "Profile_Kepala_Sekolah": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

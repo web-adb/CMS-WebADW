@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fasilitass",
+  "info": {
+    "singularName": "fasilitas",
+    "pluralName": "fasilitass",
+    "displayName": "Fasilitas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Judul": {
+      "type": "string"
+    },
+    "Deskripsi": {
+      "type": "text"
+    },
+    "Upload_Gambar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
